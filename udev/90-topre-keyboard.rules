@@ -1,0 +1,2 @@
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0853", ATTRS{idProduct}=="013a", MODE="0666", GROUP="plugdev"
+ATTRS{idVendor}=="0853", ATTRS{idProduct}=="013a", RUN+="set_rf_rgb_keyboard.sh '%b:1.0'"
